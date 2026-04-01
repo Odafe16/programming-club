@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 // First namespace
 namespace int_namespace {
     int sum(int a, int b) {
@@ -17,6 +19,8 @@ namespace long_namespace {
 int main() {
   
     // Display results
-    printf("Int Sum = %d\n", int_namespace::sum(5, 20));
-    printf("Long Sum = %d\n", long_namespace::sum(5000, 2000));
+    cout << int_namespace::sum(5, 20) << endl;
+    cout << long_namespace::sum(5000, 2000) << endl;
+
+    return 0;
 }
