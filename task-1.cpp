@@ -1,7 +1,7 @@
 #include <iostream>
 
 // First namespace
-namespace sum_namespace {
+namespace int_namespace {
     int sum(int a, int b) {
         return a + b;
     }
@@ -17,6 +17,6 @@ namespace long_namespace {
 int main() {
   
     // Display results
-    printf("Int Sum = %d\n", sum_namespace::sum(5, 20));
+    printf("Int Sum = %d\n", int_namespace::sum(5, 20));
     printf("Long Sum = %d\n", long_namespace::sum(5000, 2000));
 }
